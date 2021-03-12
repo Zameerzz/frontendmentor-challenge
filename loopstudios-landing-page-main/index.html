@@ -28,9 +28,9 @@
       <h6><a href="#" target="_self">Products</a></h6>
       <h6><a href="#" target="_self">Support</a></h6>
     </span>
-    <div class="msg-box">Immersive experiences that deliver</div>
+    <div class="msg-box">IMMERSIVE EXPERIENCES THAT DELIVER </div>
   </header>
-  <!---    Header css -->
+
   <style>
     * {
       box-sizing: border-box;
@@ -39,6 +39,7 @@
     .body-css {
       background-color: white;
       font-family: 'Alata', sans-serif;
+      padding-top: 480px;
     }
 
     /* Style the header */
@@ -152,7 +153,7 @@
 
     .forCol {
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
 
     .footer-labels {
@@ -170,18 +171,45 @@
       font-size: 65px;
       font-family: 'Alata', sans-serif;
     }
+
+    .sec-container {
+      position: relative;
+      text-align: center;
+      color: white;
+    } 
+
+    .postion-text {
+      position: absolute;
+      left: 40px;
+      top: 200px;
+      background-color: white;
+      color: black;
+      height: 360px;
+     width: 400px;
+     padding: 20px;
+     font-size: 20px;
+     font-family: 'Alata', sans-serif;
+    }
+   .img-position{
+    position: relative;
+    position: absolute;
+    left:200px;
+      text-align: center;
+      color: white;
+    }
   </style>
 
   <div class="img-text">
-    <div>
-      <img src="./images/desktop/image-interactive.jpg" />
-      <div>
-        The leader in interactive VR
-
-        Founded in 2011, Loopstudios has been producing world-class virtual reality
-        projects for some of the best companies around the globe. Our award-winning
-        creations have transformed businesses through digital experiences that bind
-        to their brand.
+    <div class="forRow">
+      <img src="./images/desktop/image-interactive.jpg" class="img-position"/>
+      <div class="sec-container">
+        <div class="postion-text">
+          <h4>  THE LEADER IN INTERACTIVE VR </h4>
+          Founded in 2011, Loopstudios has been producing world-class virtual reality
+          projects for some of the best companies around the globe. Our award-winning
+          creations have transformed businesses through digital experiences that bind
+          to their brand.
+        </div>
       </div>
     </div>
   </div>

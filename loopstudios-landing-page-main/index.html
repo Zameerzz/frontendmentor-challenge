@@ -32,10 +32,6 @@
   </header>
 
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
     .body-css {
       background-color: white;
       font-family: 'Alata', sans-serif;
@@ -47,6 +43,8 @@
       padding: 20px;
       font-size: 35px;
       color: white;
+      width: 1400px;
+      height: 610px;
       background-image: url("./images/desktop/image-hero.jpg");
       font-family: 'Alata', sans-serif;
     }
@@ -71,26 +69,15 @@
       text-decoration: none !important;
     }
 
-    .links {
-      display: flex;
-      justify-content: flex-start;
-      color: lavender;
-      top: 40px;
-      right: 45px;
-      font-family: 'Alata', sans-serif;
-    }
-
     .msg-box {
-      width: 700px;
+      width: 600px;
       border: 3px solid white;
       margin: 10px;
       opacity: 0.9;
-      padding-top: 20px;
+      padding-top: 10px;
       font-size: 60px;
       padding-left: 60px;
-      padding-bottom: 280px;
       font-family: 'Alata', sans-serif;
-      height: 140px;
       font-weight: normal;
     }
 
@@ -118,6 +105,7 @@
       flex-flow: row;
       justify-content: center;
       font-family: 'Alata', sans-serif;
+      padding-left: 70px;
       padding: 100px;
     }
 
@@ -151,11 +139,6 @@
       flex-direction: row;
     }
 
-    .forCol {
-      display: flex;
-      flex-direction: column;
-    }
-
     .footer-labels {
       display: flex;
       justify-content: flex-start;
@@ -176,7 +159,7 @@
       position: relative;
       text-align: center;
       color: white;
-    } 
+    }
 
     .postion-text {
       position: absolute;
@@ -185,29 +168,42 @@
       background-color: white;
       color: black;
       height: 360px;
-     width: 400px;
-     padding: 20px;
-     font-size: 20px;
-     font-family: 'Alata', sans-serif;
+      width: 400px;
+      padding: 20px;
+      font-size: 20px;
+      font-family: 'Alata', sans-serif;
     }
-   .img-position{
-    position: relative;
-    position: absolute;
-    left:200px;
+
+    .img-position {
+      position: relative;
+      position: absolute;
+      left: 200px;
       text-align: center;
       color: white;
+    }
+
+    .logos {
+      padding-left: 800px;
+      display: flex;
+      padding-top: 30px;
+    }
+    .copyrights{
+      padding-left: 600px;
+      display: flex;
+      padding-top: 30px;
     }
   </style>
 
   <div class="img-text">
     <div class="forRow">
-      <img src="./images/desktop/image-interactive.jpg" class="img-position"/>
+      <img src="./images/desktop/image-interactive.jpg" class="img-position" />
       <div class="sec-container">
         <div class="postion-text">
-          <h4>  THE LEADER IN INTERACTIVE VR </h4>
-          Founded in 2011, Loopstudios has been producing world-class virtual reality
-          projects for some of the best companies around the globe. Our award-winning
-          creations have transformed businesses through digital experiences that bind
+          <h4> THE LEADER IN INTERACTIVE VR </h4>
+          Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best
+          companies
+          around the globe. Our award-winning creations have transformed businesses through digital experiences that
+          bind
           to their brand.
         </div>
       </div>
@@ -221,7 +217,7 @@
         <div class="container">
           <img src="./images/desktop/image-deep-earth.jpg">
           <div class="content">
-            <h2> Deep earth</h2>
+            <h2> DEEP EARTH</h2>
           </div>
         </div>
 
@@ -230,7 +226,7 @@
         <div class="container">
           <img src="./images/desktop/image-night-arcade.jpg">
           <div class="content">
-            <h2> Night arcade</h2>
+            <h2> NIGHT ARCADE</h2>
           </div>
         </div>
       </div>
@@ -238,7 +234,7 @@
         <div class="container">
           <img src="./images/desktop/image-soccer-team.jpg">
           <div class="content">
-            <h2> Soccer team VR</h2>
+            <h2> SOCCER TEAM VR</h2>
           </div>
         </div>
       </div>
@@ -246,7 +242,7 @@
         <div class="container">
           <img src="./images/desktop/image-grid.jpg">
           <div class="content">
-            <h2>The grid</h2>
+            <h2>THE GRID</h2>
           </div>
         </div>
       </div>
@@ -255,7 +251,7 @@
           <div class="container">
             <img src="./images/desktop/image-from-above.jpg">
             <div class="content">
-              <h2> From up above VR</h2>
+              <h2> FROM UP ABOVE VR</h2>
             </div>
           </div>
         </div>
@@ -263,7 +259,7 @@
           <div class="container">
             <img src="./images/desktop/image-pocket-borealis.jpg">
             <div class="content">
-              <h2> Pocket borealis</h2>
+              <h2> POCKET BOREALIS</h2>
             </div>
           </div>
         </div>
@@ -271,7 +267,7 @@
           <div class="container">
             <img src="./images/desktop/image-curiosity.jpg">
             <div class="content">
-              <h2> The curiosity</h2>
+              <h2> THE CURIOSITY</h2>
             </div>
           </div>
         </div>
@@ -279,7 +275,7 @@
           <div class="container">
             <img src="./images/desktop/image-fisheye.jpg">
             <div class="content">
-              <h2>Make it fisheye</h2>
+              <h2>MAKE IT FISHYEYE</h2>
             </div>
           </div>
         </div>
@@ -304,12 +300,14 @@
           </div>
           <div class="column">
             <div class="forRow">
-              <div><img src="images/icon-facebook.svg"><a href="#" target="_self"></a></div>
-              <div><img src="images/icon-twitter.svg"><a href="#" target="_self"></a></div>
-              <div><img src="images/icon-pinterest.svg"><a href="#" target="_self"></a></div>
-              <div><img src="images/icon-instagram.svg"><a href="#" target="_self"></a></div>
+              <div class="logos">
+                <div><a href="https://www.facebook.com" target="_blank"><img src="images/icon-facebook.svg" /></a></div>
+                <div> <a href="https://www.facebook.com" target="_blank"><img src="images/icon-twitter.svg"></a></div>
+                <div> <a href="https://www.facebook.com" target="_blank"><img src="images/icon-pinterest.svg"></a></div>
+                <div> <a href="https://www.facebook.com" target="_blank"><img src="images/icon-instagram.svg"></a></div>
+              </div>
             </div>
-            <div class="forRow"><span>
+            <div class="forRow"><span class="copyrights">
                 <h4>© 2021 Loopstudios. All rights reserved.</h4>
               </span></div>
           </div>
